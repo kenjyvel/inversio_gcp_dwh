@@ -1,0 +1,15 @@
+from functions.bigquery_connection import bq_conn
+
+# Fact Tables functions
+from functions.bq_dwh_f_despacho import bq_job_dwh_f_despacho
+from functions.bq_dwh_f_despacho_puntos import bq_job_dwh_f_despacho_puntos
+from functions.bq_dwh_f_despacho_productos import bq_job_dwh_f_despacho_productos
+from functions.bq_dwh_f_programacion import bq_job_dwh_f_programacion
+from functions.bq_dwh_f_abastecimientos import bq_job_dwh_f_abastecimiento
+
+# Dimension Tables functions
+
+from functions.bq_dwh_d_clientes import bq_job_dwh_d_clientes
+from functions.bq_dwh_d_cuentas_productos import bq_job_dwh_d_cuentas_productos
+from functions.bq_dwh_d_tiempo import bq_job_dwh_d_tiempo
+from functions.bq_dwh_d_vehiculos import bq_job_dwh_d_vehiculos
