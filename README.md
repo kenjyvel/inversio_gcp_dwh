@@ -30,5 +30,6 @@ It was used the following steps:
   * For fact tables in Staging Zone, we get the last ingested data using SQL
   * For fact tables in Production Zone, we apply incremental load using dynamic SQL 
 * Created a file `main.py` in Trigger Cloud Function folder for triggering the data pipeline
+* Pass url Cloud Function into a Google Scheduler and run the script with the desired cadence
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement". Don't forget to give the project a star! Thanks again!
